@@ -56,6 +56,8 @@ public class Word2VecUtil {
 
         calculateDistance(resultVector1.toArray(), resultVector2.toArray());
         System.out.println("#######  " + Vectors.sqdist(resultVector1, resultVector2));
+
+
     }
 
     public Vector addVectors(Vector v1, Vector v2){

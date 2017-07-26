@@ -65,6 +65,7 @@ public class Word2VecUtil {
         double[] v1Array = v1.toArray();
         double[] v2Array = v2.toArray();
         double[] v3Array= { 0 , 0, 0 };
+        // double[] v3Array = new double[v1Array.length];
         for(int i = 0; i < v1Array.length; i++){
             v3Array[i] = v1Array[i] + v2Array[i];
         }

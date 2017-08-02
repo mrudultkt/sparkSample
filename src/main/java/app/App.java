@@ -20,7 +20,7 @@ public class App {
         tfidf.tFIDF();*/
 
         KMeansClustering kMeansClustering = new KMeansClustering();
-        kMeansClustering.kMeans();;
+        kMeansClustering.word2VecKMeans();
     }
 
 }
